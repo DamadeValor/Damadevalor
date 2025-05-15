@@ -1,0 +1,226 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/fondo.jpg');
+    background-size: cover;         /* Cubre toda la pantalla */
+    background-repeat: no-repeat;   /* No se repite */
+    background-attachment: fixed;   /* Fijo al hacer scroll */
+    background-position: center;    /* Centrado */
+    color: #b7b2b2;                    /* Opcional: texto claro sobre fondo oscuro */
+    
+
+}
+h2.bienvenida{text-align: left;}
+    h2.pregunta{text-align: center;}
+header {
+  background-color: #ffffff; /* Fondo blanco sólido (puede ser otro color) */
+  color: #431414;            /* Texto negro */
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* opcional: sombra sutil */
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: oblique;
+
+}
+
+footer{
+    background-color: #000000; /* Fondo blanco sólido (puede ser otro color) */
+    color: #450b0b;            /* Texto negro */
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* opcional: sombra sutil */
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: oblique;
+  }
+
+nav {
+  background-color: #000000;
+  padding: 1em;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+ 
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #450b0b;
+    text-shadow: #000;
+  }
+  
+h2{ 
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style:normal;
+  font-variation-settings:
+    "wdth" 300;
+}
+
+h3{text-align: center;}
+.container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.btn {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 1em auto;
+    background-color: #000;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  
+    font-size: 1rem; /* ajustable */
+  }
+  
+
+.btn2{
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 1em auto;
+  background-color: #441010;
+  color: #000000;
+  padding: 0.7em 1.5em;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+  font-size: 1rem; /* ajustable */
+}
+
+
+/* Contenido general adaptable */
+main {
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  margin-top: 1rem;
+}
+
+/* Diseño responsivo para pantallas pequeñas */
+@media (max-width: 600px) {
+  header {
+    padding: 0.4rem 0.8rem;
+  }
+
+  main {
+    padding: 0.5rem;
+  }
+  
+    body {
+      font-size: 0.9rem;
+    }
+  
+    h1 {
+      font-size: 4rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+    h3{
+      font-size: 0.7rem;
+    }
+    .btn, .btn2 {
+      font-size: 0.9rem;
+    }
+  
+}
+/* Contenedor circular */
+.contenedor-circulo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* opcional, color de fondo del círculo */
+}
+
+/* GIF adaptado al círculo */
+.contenedor-circulo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* recorta el gif sin deformarlo */
+}
+
+.linea {
+  border: none;
+  border-top: 2px solid #fff;
+  margin: 2em auto;
+  width: 80%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 2em 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
